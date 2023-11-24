@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 function connectDB() {
   mongoose.connect(
-    'mongodb+srv://shivasaidhar2020:Gms9cpmSRqc7nXkX@atlascluster.sq2pu2e.mongodb.net/Carrentalp12',
+    'mongodb+srv://aashutoshag03:EeNywFp4tAHaWC6s@cluster0.ubxkjer.mongodb.net/Carrentalp12?retryWrites=true&w=majority',
     { useUnifiedTopology: true, useNewUrlParser: true }
   );
 
